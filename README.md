@@ -33,15 +33,15 @@
 
 ## 📂 Project Structure
 ClickFit/  
-│── backend/                  # Node.js backend  
-│   ├── server.js             # Express server & file upload handler  
-│   ├── upload_images/        # Folder for uploaded images  
-│── frontend/                 # Frontend UI files  
-│   ├── index.html            # Main webpage  
-│   ├── script.js             # jQuery functions & AJAX calls  
-│   ├── styles.css            # Custom styles  
-│── database/                 # MySQL scripts  
-│   ├── schema.sql            # Database table & stored procedure  
+│── backend/                  > Node.js backend  
+│   ├── server.js             > Express server & file upload handler  
+│   ├── upload_images/        > Folder for uploaded images  
+│── frontend/                 > Frontend UI files  
+│   ├── index.html            > Main webpage  
+│   ├── script.js             > jQuery functions & AJAX calls  
+│   ├── styles.css            > Custom styles  
+│── database/                 > MySQL scripts  
+│   ├── schema.sql            > Database table & stored procedure  
 │── README.md    
 
 ## 💻 How to Run the Project
@@ -51,16 +51,16 @@ ClickFit/
 >> cd click-fit
 
 ### **2️⃣ Set Up the Backend:**
->> cd backend
->> npm install
->> node server.js
+cd backend
+npm install
+node server.js
 
 ### **3️⃣ Open the Frontend:**
 
->> Open frontend/index.html in a browser.
+Open frontend/index.html in a browser.
 
 ### **4️⃣ Set Up the Database:**
->> Import database/schema.sql into MySQL
+Import database/schema.sql into MySQL
 
 ### 📌 Notes:
 Let me know if you need any modifications! 🚀
