@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click Fit - Your Fitness Journey Starts Here</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><span class="text-primary">Click</span>Fit</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#programs">Programs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#trainers">Trainers</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12 text-center text-white">
+                    <h1 class="display-1 fw-bold animate-text">Transform Your Life</h1>
+                    <p class="lead mb-4 animate-text-delay">Start your fitness journey today with expert guidance</p>
+                    <button class="btn btn-primary btn-lg animate-button">Get Started</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- Daily Fact Section -->
+    <section class="fact-section py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h3>Fact of the Day</h3>
+                    <div id="fact-content" class="fact-box p-4 mt-3"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Image Upload Section -->
+    <section class="upload-section py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="upload-box text-center p-5" id="upload-area">
+                        <h3 class="mb-4">Share Your Progress</h3>
+                        <div class="upload-zone" id="drop-zone">
+                            <p>Drag & drop your images here or click to upload</p>
+                            <input type="file" id="file-input" class="d-none" accept="image/*" multiple>
+                        </div>
+                        <div id="preview" class="mt-4 row g-3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Image Upload Section -->
+    <!-- <section class="container my-5">
+        <h2 class="text-center mb-4">Share Your Progress</h2>
+        <div class="drop-zone" id="drop-zone">
+            <div class="text-center">
+                <p class="mb-0">Drag & drop images here or click to upload</p>
+                <small class="text-muted">Share your fitness journey with the community</small>
+            </div>
+        </div>
+        <input type="file" id="file-input" hidden accept="image/*">
+    </section> -->
+
+     <!-- Programs Section -->
+     <section id="programs" class="programs-section py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Our Programs</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card program-card">
+                        <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=800" class="card-img-top" alt="Strength Training">
+                        <div class="card-body">
+                            <h5 class="card-title">Strength Training</h5>
+                            <p class="card-text">Build muscle and increase your strength with our expert-led programs.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card program-card">
+                        <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?w=800" class="card-img-top" alt="Cardio Fitness">
+                        <div class="card-body">
+                            <h5 class="card-title">Cardio Fitness</h5>
+                            <p class="card-text">Improve your endurance and heart health with our cardio programs.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card program-card">
+                        <img src="https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=800" class="card-img-top" alt="Flexibility">
+                        <div class="card-body">
+                            <h5 class="card-title">Flexibility</h5>
+                            <p class="card-text">Enhance your flexibility and reduce injury risk with our yoga classes.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container text-center">
+            <p>L-yes © 2025 ClickFit. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
