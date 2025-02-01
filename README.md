@@ -33,22 +33,22 @@
 
 ## 📂 Project Structure
 ClickFit/  
-│── backend/                  > Node.js backend  
-│   ├── server.js             > Express server & file upload handler  
-│   ├── upload_images/        > Folder for uploaded images  
-│── frontend/                 > Frontend UI files  
-│   ├── index.html            > Main webpage  
-│   ├── script.js             > jQuery functions & AJAX calls  
-│   ├── styles.css            > Custom styles  
-│── database/                 > MySQL scripts  
-│   ├── schema.sql            > Database table & stored procedure  
+│── backend/                  
+│   ├── server.js             
+│   ├── upload_images/        
+│── frontend/                
+│   ├── index.html            
+│   ├── script.js               
+│   ├── styles.css         
+│── database/                  
+│   ├── schema.sql            
 │── README.md    
 
 ## 💻 How to Run the Project
 
 ### **1️⃣ Clone the Repository:**
->> git clone https://github.com/your-username/click-fit.git
->> cd click-fit
+git clone https://github.com/your-username/click-fit.git  
+cd click-fit  
 
 ### **2️⃣ Set Up the Backend:**
 cd backend
