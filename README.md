@@ -32,17 +32,17 @@
 ---
 
 ## 📂 Project Structure
-ClickFit/
-│── backend/                  # Node.js backend
-│   ├── server.js             # Express server & file upload handler
-│   ├── upload_images/        # Folder for uploaded images
-│── frontend/                 # Frontend UI files
-│   ├── index.html            # Main webpage
-│   ├── script.js             # jQuery functions & AJAX calls
-│   ├── styles.css            # Custom styles
-│── database/                 # MySQL scripts
-│   ├── schema.sql            # Database table & stored procedure
-│── README.md   
+ClickFit/  
+│── backend/                  # Node.js backend  
+│   ├── server.js             # Express server & file upload handler  
+│   ├── upload_images/        # Folder for uploaded images  
+│── frontend/                 # Frontend UI files  
+│   ├── index.html            # Main webpage  
+│   ├── script.js             # jQuery functions & AJAX calls  
+│   ├── styles.css            # Custom styles  
+│── database/                 # MySQL scripts  
+│   ├── schema.sql            # Database table & stored procedure  
+│── README.md    
 
 ## 💻 How to Run the Project
 
